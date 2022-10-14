@@ -1,0 +1,55 @@
+name: u_strongest
+description: A new Flutter project.
+
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.4.2
+  firebase_core: ^1.24.0
+  google_sign_in: ^5.4.2
+  cloud_firestore: ^3.4.9
+  fl_chart: ^0.55.2
+  flutter_bloc: ^8.1.1
+  smooth_page_indicator: ^1.0.0+2
+  image_picker: ^0.8.6
+  firebase_storage: ^10.3.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/ui/login_page_bg.jpg
+    - lib/assets/images/ui/avatar.jpg
+    - lib/assets/images/ui/chevron_triple_left.png
+    - lib/assets/images/ui/google_icon.png
+    - lib/assets/images/chest_exercises/bench_press.jpg
+    - lib/assets/images/chest_exercises/dumbbell_hammer.jpg
+    - lib/assets/images/chest_exercises/cable_crossover.jpg
+    - lib/assets/images/chest_exercises/pec_deck.jpg
+    - lib/assets/images/chest_exercises/push_ups.jpg
+    - lib/assets/images/back_exercises/tBarbellPull.jpg
+    - lib/assets/images/biceps_exercises/hammer_curl.jpg
+    - lib/assets/images/triceps_exercises/FrenchPress.jpg
+    - lib/assets/images/legs_exercises/legs_push.jpg
+
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: lib/assets/fonts/Gilroy-Regular.ttf
